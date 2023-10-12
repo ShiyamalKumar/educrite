@@ -1,0 +1,20 @@
+.button_inner .button-icon{
+    position:relative;
+    left:-19px;
+    top:20px;
+    color:#00c4ff;
+    font-size: 25px;
+    opacity: 0;
+    transition: left 0.3s 0s, top 0.3s 0s, opacity 0.3s 0s;
+ 
+}
+
+.tick 
+{
+position: absolute;
+left:0;
+right:0;
+transform: scale(0);
+margin:auto
+}
+

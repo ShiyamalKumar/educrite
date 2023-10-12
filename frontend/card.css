@@ -1,0 +1,35 @@
+/*#BBD6B8 #609966 #40513B #FAF9F6*/
+.containerr{
+    --gradient: linear-gradient(to left top, #BBD6B8 10%, #609966 90%);
+    --gradient2: linear-gradient(90deg, #BBD6B8 10%, #609966 90%);
+    display: block;
+   }
+  
+  body {
+    background: #FAF9F6;
+    background-image: url(/assets/bgimg3.jpg);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #BBD6B8;
+    border: 10px solid #BBD6B8;
+    color: #609966;
+    margin-bottom: 2rem;
+    border-radius:20px;
+    width: 100%;
+    height: 90%; 
+  }
+
+  .card-body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+.card-img-top
+  {
+border-radius: 20px;
+  }
+
+  
